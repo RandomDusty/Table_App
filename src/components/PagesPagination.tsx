@@ -6,9 +6,8 @@ import '../styles/PagesPagination.css';
 
 const PagesPagination = () => {
 	const { getData } = useAction();
-	const { lastIndexOfCurrentList, lastIndex, searchQuery, searchHeader} = useTypeSelector(
-		state => state.dataTable
-	);
+	const { lastIndexOfCurrentList, lastIndex, searchQuery, searchHeader } =
+		useTypeSelector(state => state.dataTable);
 
 	const [pagesRange, setPagesRange] = useState<number[]>([]);
 	const [currentPage, setCurrentPage] = useState(0);
