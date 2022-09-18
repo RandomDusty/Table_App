@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Table App
 
 Test task in which the data display is implemented in the form of a table, there is a possibility of search
 
